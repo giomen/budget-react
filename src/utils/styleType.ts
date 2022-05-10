@@ -1,0 +1,1 @@
+export type StyleType =  React.CSSProperties | undefined
