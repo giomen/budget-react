@@ -1,0 +1,42 @@
+.resumeGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 8px;
+  margin-top: 16px;
+}
+.resumeGridItems {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f3f3f3;
+  padding: 8px 4px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1)
+}
+.label {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.value {
+  &Incomes {
+    font-size: 16px;
+    font-weight: 200;
+    color: green;
+  }
+  font-size: 16px;
+  font-weight: 200;
+  &Outcomes {
+    color: red;
+  }
+}
+.borderRed {
+  border-top: 2px solid red;
+  margin-top: 16px;
+  padding-top: 8px
+}
+.borderGreen {
+  border-top: 2px solid green;
+  margin-top: 16px;
+  padding-top: 8px
+}
